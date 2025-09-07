@@ -375,6 +375,7 @@ function run_install() {
     "-DSUNSHINE_ENABLE_WAYLAND=ON"
     "-DSUNSHINE_ENABLE_X11=ON"
     "-DSUNSHINE_ENABLE_DRM=ON"
+    "-DSUNSHINE_USE_LEGACY_INPUT=ON"
   )
 
   if [ "$appimage_build" == 1 ]; then
